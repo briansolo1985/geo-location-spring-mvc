@@ -1,0 +1,250 @@
+@CHARSET "UTF-8";
+
+body {
+	background: -webkit-linear-gradient(left top, #CEDEF4 , #FAFDFE) no-repeat center center fixed;
+	background: -o-linear-gradient(bottom right, #CEDEF4, #FAFDFE) no-repeat center center fixed;
+	background: -moz-linear-gradient(bottom right, #CEDEF4, #FAFDFE) no-repeat center center fixed; 
+	background: linear-gradient(to bottom right, #CEDEF4 , #FAFDFE) no-repeat center center fixed; 
+}
+
+div.container {
+	width: 1200px;
+	position: relative;
+	margin: 0 auto;
+} 
+
+
+div.header {
+	width: 100%;
+	border: 1px outset black;
+	margin-bottom: 10px;
+	height: 45px;
+	float:left;
+  	background: #EFF9FC;  
+  	
+  	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+div.header-title {
+	float:left;
+	font-size: 24px;
+	margin-left:10px;
+	margin-top:8px;
+}
+
+div.header-search {
+	width: 380px;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 8px auto;
+	position: relative;
+}
+
+div.header-date {
+	float:right;
+	width: 150px;
+	border:1px solid #EFF9FC;
+ 	height: 20px; 
+ 	margin-top:-42px;
+ 	
+}
+
+
+input.searchButton {
+	width:40px;
+	height: 30px;
+	border: 1px outset black;
+	background: #E9F1EA;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+
+div.result {
+	float:left;
+	width:300px;
+	
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+div.result-header {
+	border: 1px outset black;
+	background: #C0E0DA;
+	
+	float:left;
+	width:295px;
+	height:20px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	margin-bottom: 6px;
+	padding:3px;
+	
+	font-weight: bold;
+}
+
+div.result-row-even {
+	border: 1px outset black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	background:#F2F9F8;
+	
+	float:left;
+	width:295px;
+	height:20px;
+	
+	margin-bottom: 3px;
+}
+
+div.result-row-odd {
+	border: 1px outset black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	background:#F2F9F8;
+	
+	float:left;
+	width:295px;
+	height:20px;
+	
+	margin-bottom: 3px;
+}
+
+div.result-label {
+	-webkit-border-radius: 5px 0px 0px 5px;
+	-moz-border-radius: 5px 0px 0px 5px;
+	border-radius: 5px 0px 0px 5px;
+	border-right: 1px outset black;
+	background: #DCEDEA;
+	
+	float:left;
+	width:100px;
+	height:20px;
+	
+	padding-left:2px;
+}
+
+div.result-text {
+	background:transparent;
+	
+	float:left;
+	width:185px;
+	height:20px;
+	
+	margin-left: 5px;
+}
+
+div.result-languages {
+	float:left;
+	width:295px;
+	height:40px;
+	
+	margin-top: 30px;
+}
+
+div.result-languages-en {
+	border: 1px outset black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	float:left;
+	height:20px;
+	padding:5px;
+	margin-left: 60px;
+	
+	background: -webkit-linear-gradient(left, #A8CFFF , #FFCECE 70px) repeat;
+	background: -o-linear-gradient(right, #A8CFFF, #FFCECE 70px) repeat;
+	background: -moz-linear-gradient(right, #A8CFFF, #FFCECE 70px) repeat; 
+	background: repeating-linear-gradient(to right, #A8CFFF , #FFCECE 70px) ;
+	
+	width:60px;
+	text-align: center;
+}
+
+div.result-languages-hu {
+	border: 1px outset black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	background:#BDF4CB;
+	
+	float:left;
+	height:20px;
+	padding:5px;
+	margin-left: 20px;
+	
+	background: -webkit-linear-gradient(left, #FFCECE , #A4F0B7 90px) repeat;
+	background: -o-linear-gradient(right, #FFCECE, #A4F0B7 90px) repeat;
+	background: -moz-linear-gradient(right, #FFCECE, #A4F0B7 90px) repeat; 
+	background: repeating-linear-gradient(to right, #FFCECE , #A4F0B7 90px) ;
+	
+	width:80px;
+	text-align: center;
+}
+
+
+div.result-languages-hu a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	position:relative;
+	margin:auto;
+	
+}
+
+div.result-languages-en a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+div.result-exception {
+	float:left;
+	width:295px;
+	
+	margin-top: 30px;
+	
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	
+	display: none;
+}
+
+div.result-exception-title {
+	background: #FFA8A8;
+	width: 100%;
+	height: 24px;
+	border-bottom: 1px solid black;
+}
+
+div.result-exception-content {
+	background: #F9F3EC;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+
+
+div.gmap {
+	float:left;
+	height:800px;
+	width:800px;
+	
+	border: 1px outset black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
